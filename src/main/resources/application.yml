@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+#指定注册中心路径
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka
+#声明服务名称
+spring:
+  application:
+    name: product-service
